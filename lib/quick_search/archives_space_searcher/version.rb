@@ -1,3 +1,3 @@
-module ArchivesSpaceSearcher
+module QuickSearchArchivesSpaceSearcher
   VERSION = '0.1.0'.freeze
 end

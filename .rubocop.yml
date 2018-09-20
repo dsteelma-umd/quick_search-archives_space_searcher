@@ -22,7 +22,7 @@ AllCops:
     - 'test/dummy/**/*'
 
   TargetRubyVersion: 2.3
-  TargetRailsVersion: 5.0
+  TargetRailsVersion: 5.2
 
 # Increase max allowed line length
 Metrics/LineLength:
@@ -60,4 +60,4 @@ Layout/IndentationConsistency:
 
 Naming/FileName:
   Exclude:
-    - quick_search-library_website_searcher.gemspec
+    - quick_search-archives_space_searcher.gemspec

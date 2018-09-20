@@ -6,12 +6,18 @@ UMD ArchivesSpace searcher for NCSU Quick Search
 Include the searcher gem in your Gemfile:
 
 ```
-gem 'quick_search-library_website_searcher'
+gem 'quick_search-archives_space_searcher'
 
 ```
 And then execute:
 ```bash
 $ bundle install
+```
+
+Include in your Search Results page
+
+```
+<%= render_module(@archives_space, 'archives_space') %>
 ```
 
 ## Configuration

@@ -5,7 +5,7 @@
 config_file = [
   File.join(Rails.root, '/config/searchers/archives_space_config.yml'),
   File.expand_path('../archives_space_config.yml', __dir__)
-].first { |file| File.exists? file }
+].select { |file| File.exists? file }.first
 
-QuickSearch::Engine::ARCHIVESSPACE_CONFIG =
+QuickSearch::Engine::ARCHIVES_SPACE_CONFIG =
   YAML.load(ERB.new(IO.read(config_file)).result, aliases: true)[Rails.env]

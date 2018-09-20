@@ -1,5 +1,5 @@
-module ArchivesSpaceSearcher
+module QuickSearchArchivesSpaceSearcher
   class Engine < ::Rails::Engine
-    isolate_namespace ArchivesSpaceSearcher
+    isolate_namespace QuickSearchArchivesSpaceSearcher
   end
 end

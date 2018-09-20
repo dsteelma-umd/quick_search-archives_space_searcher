@@ -1,5 +1,5 @@
 require 'quick_search/archives_space_searcher/engine'
 
-module ArchivesSpaceSearcher
+module QuickSearchArchivesSpaceSearcher
   # Your code goes here...
 end

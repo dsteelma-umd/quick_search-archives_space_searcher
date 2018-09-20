@@ -1,2 +1,4 @@
-ArchivesSpaceSearcher::Engine.routes.draw do
+# frozen_string_literal: true
+
+QuickSearchArchivesSpaceSearcher::Engine.routes.draw do
 end

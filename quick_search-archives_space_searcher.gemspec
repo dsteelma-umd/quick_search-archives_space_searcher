@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 # Maintain your gem's version:
@@ -6,13 +8,13 @@ require 'quick_search/archives_space_searcher/version'
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = 'quick_search-archives_space_searcher'
-  s.version     = ArchivesSpaceSearcher::VERSION
-  s.authors     = ['Chris Fitzpatrick']
-  s.email       = ['chrisfitzpat@gmail.com']
-  s.homepage    = 'https://github.com/umd-lib/quick_search-archives_space_searcher'
-  s.summary     = 'ArchivesSpace searcher for NCSU Quick Search'
-  s.description = 'ArchivesSpace searcher for NCSU Quick Search'
-  s.license = 'Apache 2.0'
+  s.version     = QuickSearchArchivesSpaceSearcher::VERSION
+  s.authors     = ['UMD Libraries']
+  s.email       = ['lib-ssdr@umd.edu']
+  s.homepage    = 'https://www.lib.umd.edu/'
+  s.summary     = 'Quick Search ArchivesSpace Searcher for NCSU Quick Search.'
+  s.description = 'Quick Search ArchivesSpace Searcher for NCSU Quick Search.'
+  s.license     = 'Apache 2.0'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'LICENSE', 'Rakefile', 'README.md']
 
